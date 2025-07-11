@@ -116,3 +116,62 @@ nav{
 }
 
 /* User section start here */
+.user{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.user-main-container{
+    display: flex;
+    gap: 30px;
+}
+.user-say{
+    font-size: 43px;
+    font-weight: bolder;
+    color: #252432;
+    text-align: center;
+}
+.user-container{
+    background-color: #fff3f3;
+    border-radius: 20px;
+    padding: 24px;
+    text-align: left;
+}   
+.user-star{
+    padding-top: 30px;
+}
+.user-heading{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #252432;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.user-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #34343f;
+    margin-bottom: 0;
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+    
+}
+.user-img{
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 22px;
+    color: #474756;
+    margin-bottom: 0;
+}
+.user-date{
+    font-size: 22px;
+    color: #474756;
+    margin-top: 5px;
+}
+
+/* <!-- focus section start here --> */
