@@ -1,15 +1,16 @@
 /* Google font */
-.raleway-normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-/* body{
-    max-width: 1140px;
-    margin: 0 auto;
-} */
+
 /* Shared styles */
-.btn-primary{
+body{
+    margin: 0 auto;
+    background-color: #bfbfc930;
+}
+.btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
     padding: 18px 35px;
@@ -18,34 +19,40 @@
     font-size: 18px;
     font-weight: bold;
 }
-
+.btn-primary:hover{
+    background-color: lightgreen;
+    color: #08080b;
+}
 /* Nav Part start here */
-header{
+header {
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 150px;
 }
-.nav-title{
+
+.nav-title {
     color: #4E47FF;
     font-size: 35px;
     font-weight: 900;
 }
 
 /* Banner Part start here */
-.banner-heading{
+.banner-heading {
     max-width: 905px;
     margin: 0 auto;
     margin-top: 150px;
     padding-bottom: 150px;
     text-align: center;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
@@ -53,209 +60,269 @@ nav{
 }
 
 /* Mani section start here */
-.fixed-body{
-    margin: 0 150px;
-    
+.fixed-body {
+    margin: 0 100px;
 }
 
 /* Action section start here */
-.action{
+.action {
+    display: flex;
+    justify-content: center;   
+}
+.action-div {
     display: flex;
     margin-top: 115px;
     margin-bottom: 115px;
     justify-content: space-between;
     align-items: center;
-    gap: 90px;
+    gap: 200px;
 }
-.action-container{
+.action-container {
     text-align: left;
 }
-.action-title{
+.action-title {
+    margin-bottom: 0;
     font-size: 42px;
     font-weight: bold;
-    color:#252432;
+    color: #252432;
 }
-.action-description{
+.action-description {
     font-size: 24px;
     font-weight: 200;
     color: #474756;
 }
-.webflow-img{
+.webflow-img {
     border-radius: 20px;
 }
 
 /* Review section start here */
-.review-sect{
-    background-color: #efefff;
+.review-sect {
+    background-color: #e4e4f4;
     padding: 50px 52px;
     border-radius: 20px;
 }
-.review-title{
+.review-title {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
     text-align: center;
     margin-bottom: 0;
 }
-.review-container{
+
+.review-container {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
-.review{
+
+.review {
     justify-content: center;
     text-align: center;
 }
-.review-heading{
+
+.review-heading {
     font-size: 80px;
-    font-weight: bold ;
+    font-weight: bold;
     color: #4E47FF;
     margin-bottom: 0;
 }
-.review-description{
-    font-size: 20px;   
+
+.review-description {
+    font-size: 20px;
 }
 
 /* User section start here */
-.user{
+.user {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.user-sect-container{
+
+/* .user-sect-container{
     margin: 0 auto;
-}
-.user-main-container{
+} */
+.user-main-container {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
-.user-say{
+
+.user-say {
     font-size: 43px;
     font-weight: bolder;
     color: #252432;
     text-align: center;
 }
-.user-container{
-    background-color: #fff3f3;
+
+.user-container {
+    background-color: #ceb0cc39;
     border-radius: 20px;
-    padding-left: 14px;
+    padding: 5px 14px;
     text-align: left;
-}   
-.user-star{
+}
+
+.user-star {
     padding-top: 30px;
 }
-.user-heading{
+
+.user-heading {
     font-size: 30px;
     font-weight: bolder;
     color: #252432;
     margin-bottom: 0;
     margin-top: 20px;
 }
-.user-title{
+
+.user-title {
     font-size: 24px;
     font-weight: 400;
     color: #34343f;
     margin-bottom: 0;
 }
-.user-profile{
+
+.user-profile {
     display: flex;
     align-items: center;
     justify-content: baseline;
     gap: 10px;
-    
+
 }
-.user-img{
+
+.user-img {
     padding-top: 20px;
     border-radius: 50%;
 }
-.user-name{
+
+.user-name {
     font-size: 22px;
     color: #474756;
     margin-bottom: 0;
 }
-.user-date{
+
+.user-date {
     font-size: 22px;
     color: #474756;
     margin-top: 5px;
 }
 
 /* <!-- focus section start here --> */
-.focus{
+.focus {
     margin-top: 0;
     margin-bottom: 100px;
-    background-color: #fff3f3;
+    background-color: #fffdfd;
     border-radius: 20px;
 }
-.focus-container{
+
+.focus-container {
     display: block;
     justify-items: center;
     padding-top: 40px;
     padding-bottom: 80px;
 }
-.focus-heading{
+
+.focus-heading {
     font-size: 56px;
     font-weight: bold;
     color: #08080b;
     margin-bottom: 0;
 }
-.focus-title{
+
+.focus-title {
     font-size: 18px;
     font-weight: 400;
-    color:#474756;
+    color: #474756;
 }
-.focus-img{
+
+.focus-img {
     border: none;
     border-radius: 30px;
     margin-top: 30px;
 }
 
 /* info section start here */
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 30px;
+}
+
+.info-heading {
+    font-size: 100px;
+    font-weight: bold;
+    color: #08080b;
+}
+
+.info-form {
+    padding-right: 20px;
+}
+
+.info-input {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-large {
+    margin: 5px auto;
+    width: 110%;
+}
+
 
 /* footer section start here */
-footer{
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
-.footer-container{
+
+.footer-container {
     max-width: 530px;
     margin-bottom: 50px;
-    
+
 }
-.footer-logo{
+
+.footer-logo {
     font-size: 100px;
     font-weight: bolder;
     color: #4E47FF;
     margin-bottom: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.footer-description{
+
+.footer-description {
     font-size: 18px;
     font-weight: 400;
     color: #4c4c5b;
     margin-top: 10;
     margin-bottom: 20px;
 }
-footer ul li{
+
+footer ul li {
     display: inline;
     margin-right: 50px;
     list-style: none;
-    
+
 }
+
 footer li a {
     text-decoration: none;
     color: #4c4c5b;
 }
-footer li a:hover{
+
+footer li a:hover {
     background-color: aqua;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.foot-cap{
+
+.foot-cap {
     margin-top: 50px;
     font-size: small;
     color: #2c2c37;
     font-weight: 500;
 }
+
 /* All Done */

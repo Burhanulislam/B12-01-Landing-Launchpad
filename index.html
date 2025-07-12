@@ -34,13 +34,15 @@
 
         <!-- action section -->
         <section class="action">
-            <div class="action-container">
+            <div class="action-div">
+                <div class="action-container">
                 <h3 class="action-title">See It in Action</h3>
                 <p class="action-description">Explore the live preview and imagine your brand in this bold new look.</p>
                 <button class="btn-primary">Launch Live Preview</button>
             </div>
             <div>
                 <img class="webflow-img" src="Assets/wc-mini.png" alt="coming-soon">
+            </div>
             </div>
         </section>
 
@@ -137,29 +139,35 @@
 
         <!-- focus section start here -->
         <section class="focus">
-            <div class="focus-container">
+            <div class="focus-div">
+                <div class="focus-container">
                 <h2 class="focus-heading">Ready to focus better</h2>
                 <p class="focus-title">This template instantly leveled up our presence.” – Studio Vertex</p>
                 <button style="display: block;" class="btn-primary">Ger Started Free</button>
                 <img style="display: block;" class="focus-img" src="Assets/wc-big.png" alt="coming-soon">
             </div>
+            </div>
         </section>
 
         <!-- info section start here -->
-        <section>
+        <section class="info">
             <div>
-                <h1>Let’s Get in Touch</h1>
-            </div>
+                <h1 class="info-heading">Let’s Get in Touch</h1>
+            </div>            
             <div>
-                <form action="">
+                <form class="info-form">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="example@email.com">
-
+                    <br>
+                    <input class="info-input" type="email" placeholder="example@email.com">
+                    <br><br>
                     <label for="name">Name</label>
-                    <input type="text">
-
+                    <br>
+                    <input class="info-input" placeholder="full name" type="text">
+                    <br><br>
                     <label for="message">Message</label>
-                    <textarea cols="10" rows="4" name="" id=""></textarea>
+                    <br>
+                    <textarea class="info-input" placeholder="write your message...." cols="40" rows="10" name="" id=""></textarea>
+                    <button class="btn-primary btn-large">Get in Touch</button>
                 </form>
             </div>
         </section>
@@ -169,7 +177,8 @@
     <footer>
         <div class="footer-container">
             <h1 class="footer-logo">LOGO</h1>
-            <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can
+            <p class="footer-description">Ready to elevate your online presence? Contact us today to discuss your
+                project and discover how we can
                 bring your vision to life.</p>
             <ul>
                 <li><a href="">Home</a></li>
