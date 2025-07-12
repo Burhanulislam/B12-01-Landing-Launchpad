@@ -120,9 +120,13 @@ nav{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.user-sect-container{
+    margin: 0 auto;
+}
 .user-main-container{
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 .user-say{
     font-size: 43px;
@@ -184,8 +188,8 @@ nav{
 .focus-container{
     display: block;
     justify-items: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 80px;
 }
 .focus-heading{
     font-size: 56px;
@@ -201,8 +205,57 @@ nav{
 .focus-img{
     border: none;
     border-radius: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* info section start here */
 
+/* footer section start here */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.footer-container{
+    max-width: 530px;
+    margin-bottom: 50px;
+    
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+    margin-bottom: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.footer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4c4c5b;
+    margin-top: 10;
+    margin-bottom: 20px;
+}
+footer ul li{
+    display: inline;
+    margin-right: 50px;
+    list-style: none;
+    
+}
+footer li a {
+    text-decoration: none;
+    color: #4c4c5b;
+}
+footer li a:hover{
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.foot-cap{
+    margin-top: 50px;
+    font-size: small;
+    color: #2c2c37;
+    font-weight: 500;
+}
+/* All Done */
