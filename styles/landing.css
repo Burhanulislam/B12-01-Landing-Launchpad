@@ -175,3 +175,34 @@ nav{
 }
 
 /* <!-- focus section start here --> */
+.focus{
+    margin-top: 0;
+    margin-bottom: 100px;
+    background-color: #fff3f3;
+    border-radius: 20px;
+}
+.focus-container{
+    display: block;
+    justify-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.focus-heading{
+    font-size: 56px;
+    font-weight: bold;
+    color: #08080b;
+    margin-bottom: 0;
+}
+.focus-title{
+    font-size: 18px;
+    font-weight: 400;
+    color:#474756;
+}
+.focus-img{
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+/* info section start here */
+
